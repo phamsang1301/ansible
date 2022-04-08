@@ -1,6 +1,6 @@
 - hosts: gitlab
   become: true
   vars_files:
-    - ansible/ansible-role-gitlab/vars/main.yml
+    - ansible/ansible-role-gitlab-1/vars/main.yml
   roles:
     - role: ansible-role-gitlab
