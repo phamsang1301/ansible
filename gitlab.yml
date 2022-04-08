@@ -3,4 +3,4 @@
   vars_files:
     - ansible-role-gitlab-1/vars/main.yml
   roles:
-    - role: ansible-role-gitlab
+    - role: ansible-role-gitlab-1
